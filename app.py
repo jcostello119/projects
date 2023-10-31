@@ -6,10 +6,10 @@ import io
 st.set_page_config(page_title="My Portfolio", layout="wide")
 
 #load in images needed
-img_profile = Image.open("images/Profile.jpg")
-img_Job_Project = Image.open("images/jobs_project.PNG")
-img_coffee_shop = Image.open("images/coffee_shop.PNG")
-img_sales_data = Image.open("images/sales_data.PNG")
+img_profile = Image.open("Profile.jpg")
+img_Job_Project = Image.open("jobs_project.PNG")
+img_coffee_shop = Image.open("coffee_shop.PNG")
+img_sales_data = Image.open("sales_data.PNG")
 
 # header section
 with st.container():
