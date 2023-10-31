@@ -72,7 +72,7 @@ with st.container():
         st.image(img_coffee_shop)
 
     with text_col:
-        st.subheader("Jobs Out of College Dashboard - Excel")
+        st.subheader("Coffee Shop Data - Excel")
         st.write(
             """
             This is another one of my Excel projects that I worked on. It provides insights on sales data for a specific coffee shop.
