@@ -80,7 +80,7 @@ with st.container():
             You can click on the link to see a recording of me showing the project.
             """
         )
-        st.markdown("[Here is the link]()")
+        st.markdown("[Here is the link](https://youtu.be/W96hZcWo2RM)")
 
 with st.container():
     image_col, text_col = st.columns((1,2))
