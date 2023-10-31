@@ -81,19 +81,3 @@ with st.container():
             """
         )
         st.markdown("[Here is the link](https://youtu.be/W96hZcWo2RM)")
-
-with st.container():
-    image_col, text_col = st.columns((1,2))
-    with image_col:
-        st.image(img_coffee_shop)
-
-    with text_col:
-        st.subheader("Jobs Out of College Dashboard - Excel")
-        st.write(
-            """
-            This is another one of my Excel projects that I worked on. It provides insights on sales data for a specific coffee shop.
-            You will find various graphs and slicers that you can change to look at different data. This is a dynamic dashboard so all of the graphs will change when you change the inputs.
-            You can click on the link to see a recording of me showing the project.
-            """
-        )
-        st.markdown("[Here is the link]()")
