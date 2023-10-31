@@ -6,9 +6,10 @@ import io
 st.set_page_config(page_title="My Portfolio", layout="wide")
 
 #load in images needed
-img_profile = Image.open("Profile.jpg")
-img_Job_Project = Image.open("jobs_project.PNG")
-img_coffee_shop = Image.open("coffee_shop.PNG")
+img_profile = Image.open("images/Profile.jpg")
+img_Job_Project = Image.open("images/jobs_project.PNG")
+img_coffee_shop = Image.open("images/coffee_shop.PNG")
+img_sales_data = Image.open("images/sales_data.PNG")
 
 # header section
 with st.container():
@@ -64,7 +65,7 @@ with st.container():
             You can click on the link to see a recording of me showing the project.
             """
         )
-        st.markdown("[Here is the link](https://youtu.be/W96hZcWo2RM)")
+        st.markdown("[Here is a video](https://youtu.be/aImykM0Auug)")
 
 with st.container():
     image_col, text_col = st.columns((1,2))
@@ -72,7 +73,7 @@ with st.container():
         st.image(img_coffee_shop)
 
     with text_col:
-        st.subheader("Coffee Shop Data - Excel")
+        st.subheader("Jobs Out of College Dashboard - Excel")
         st.write(
             """
             This is another one of my Excel projects that I worked on. It provides insights on sales data for a specific coffee shop.
@@ -80,4 +81,20 @@ with st.container():
             You can click on the link to see a recording of me showing the project.
             """
         )
-        st.markdown("[Here is a video demonstration](https://youtu.be/aImykM0Auug)")
+        st.markdown("[Here is a video](https://youtu.be/W96hZcWo2RM)")
+
+with st.container():
+    image_col, text_col = st.columns((1,2))
+    with image_col:
+        st.image(img_sales_data)
+
+    with text_col:
+        st.subheader("Jobs Out of College Dashboard - Excel")
+        st.write(
+            """
+            This is the first EDA Pandas project that I have started to work on. This is some sales data for a company for the years 2003-2005.
+            I got a good start on in by cleaning and transforming the data to create visualizaitons I wanted to see. 
+            I plan on adding more in depth analysis to this project but I am happy where I am so far.
+            """
+        )
+        st.markdown("[Here is the link](https://github.com/jcostello119/projects/blob/main/Sales_Data.ipynb)")
