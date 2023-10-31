@@ -64,7 +64,7 @@ with st.container():
             You can click on the link to see a recording of me showing the project.
             """
         )
-        st.markdown("[Here is a video demonstration]()")
+        st.markdown("[Here is a video demonstration](https://youtu.be/aImykM0Auug)")
 
 with st.container():
     image_col, text_col = st.columns((1,2))
