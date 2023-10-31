@@ -89,7 +89,7 @@ with st.container():
         st.image(img_sales_data)
 
     with text_col:
-        st.subheader("Jobs Out of College Dashboard - Excel")
+        st.subheader("Sales EDA - Python")
         st.write(
             """
             This is the first EDA Pandas project that I have started to work on. This is some sales data for a company for the years 2003-2005.
