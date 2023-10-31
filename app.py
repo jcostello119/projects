@@ -65,7 +65,7 @@ with st.container():
             You can click on the link to see a recording of me showing the project.
             """
         )
-        st.markdown("[Here is a video](https://youtu.be/aImykM0Auug)")
+        st.markdown("[Here is a video](https://youtu.be/W96hZcWo2RM)")
 
 with st.container():
     image_col, text_col = st.columns((1,2))
@@ -73,7 +73,7 @@ with st.container():
         st.image(img_coffee_shop)
 
     with text_col:
-        st.subheader("Jobs Out of College Dashboard - Excel")
+        st.subheader("Coffee Sales Data - Excel")
         st.write(
             """
             This is another one of my Excel projects that I worked on. It provides insights on sales data for a specific coffee shop.
@@ -81,8 +81,8 @@ with st.container():
             You can click on the link to see a recording of me showing the project.
             """
         )
-        st.markdown("[Here is a video](https://youtu.be/W96hZcWo2RM)")
-
+        st.markdown("[Here is a video](https://youtu.be/aImykM0Auug)")
+        
 with st.container():
     image_col, text_col = st.columns((1,2))
     with image_col:
